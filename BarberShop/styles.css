@@ -234,3 +234,57 @@ color:#9DA4BD;
     letter-spacing: 0.02em;
     color:#303030;
 }
+/* Address */
+.contacts-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color:#fff;
+}
+.address{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+.address-link{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+   
+}
+.time{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+/* Footer */
+
+.footer-text{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+.footer-link{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: #303030;
+}
+
+.footer-link:hover,
+.footer-link:focus{
+    color: ##FF6C00;
+}
