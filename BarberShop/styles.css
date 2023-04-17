@@ -26,6 +26,13 @@ letter-spacing: 0.1em;
 color: #ffffff;
 }
 
+
+.header-nav-link:hover,
+.header-nav-link:focus{
+color: #FF6C00;
+}
+
+
 .address-link{
 font-weight: 600;
 font-size: 12px;
@@ -42,23 +49,34 @@ letter-spacing: 0.09em;
 border-radius: 25px;
 color:#fff;
 background-color: darkorange;
+border: 5px solid white;
 }
 
-
+.main-button{
+    color: black;
+}
 /* Hero-section */
 .sidebar-link{
 font-weight: 600;
 font-size: 11px;
 line-height: 1.3;
-letter-spacing: 0.02em;
+letter-spacing: 0.2em;
 border-radius: 25px;
 color: #303030;
+cursor: pointer;
 }
+
+
+.sidebar-link:hover,
+.sidebar-link:focus{
+color: #FF6C00;
+}
+
 .hero-text{
 font-weight: 600;
 font-size: 11px;
 line-height: 1.3;
-letter-spacing: 0.02em;
+letter-spacing: 0.2em;
 border-radius: 25px;
 color:rgba(157, 164, 189, 0.6)
 }
@@ -93,7 +111,7 @@ max-width: 360px;
 font-weight: 400;
 font-size: 11px;
 line-height: 1.3;
-letter-spacing: 0.02em;
+letter-spacing: 0.2em;
 color:#303030;
 }
 
@@ -285,6 +303,15 @@ color:#9DA4BD;
 }
 
 .footer-link:hover,
-.footer-link:focus{
-    color: ##FF6C00;
+.footer-link:focus {
+    color: #FF6C00;
+}
+
+
+.sup{
+font-family: "Open Sans", sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.4;
+color:#FF6C00;
 }
